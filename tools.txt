@@ -1,0 +1,23 @@
+#Here are some of the tools and commands to install necessary dependency packages for arch linux
+sudo pacman -S --needed git base-devel; git clone https://aur.archlinux.org/yay.git; cd yay; makepk -si
+
+#packages I installed	
+sudo pacman -S yazi unzip p7zip unrar xz brotli vlc mpv ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly meson nodejs jdk17-openjdk nvim zsh hyprpanel hyprpaper swww kitty cava networkmanager obs-studio discord bat calcurse
+
+#######
+##ZSH##
+#######
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+#file locations of zsh 
+~/.zshrc #config file 
+.oh-my-zsh 
+
+#########
+##kitty##
+#########
+
+#file location of kitty 
+~/.config/kitty/
+
+
