@@ -13,6 +13,10 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ~/.zshrc #config file 
 .oh-my-zsh 
 
+#Change default shell
+chsh -s $(which <shell>)
+echo $SHELL
+
 #########
 ##kitty##
 #########
